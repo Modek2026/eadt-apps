@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annuaire Numérique - EADT-An</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: linear-gradient(180deg, #E8F0FE 0%, #ffffff 40%);
+    color: #1A1A3A;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 20px;
+  }
+  .logo {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #3F51B5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 16px;
+    box-shadow: 0 6px 16px rgba(63,81,181,0.35);
+  }
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.35;
+    color: #283593;
+  }
+  .sous-titre {
+    margin-top: 6px;
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+  }
+  .carte {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    padding: 28px 24px;
+    margin-top: 28px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+  }
+  .carte h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #1A1A3A;
+  }
+  .carte p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  .bouton-telecharger {
+    display: inline-block;
+    width: 100%;
+    background: #3F51B5;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 0;
+    border-radius: 14px;
+    transition: background 0.2s;
+  }
+  .bouton-telecharger:active { background: #303F9F; }
+  .bouton-desactive {
+    background: #BDBDBD !important;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  .version {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #999;
+  }
+  .instructions {
+    margin-top: 40px;
+    max-width: 420px;
+    width: 100%;
+    background: #FFF8E1;
+    border: 1px solid #FFECB3;
+    border-radius: 14px;
+    padding: 20px;
+    font-size: 14px;
+    color: #5D4037;
+    line-height: 1.6;
+  }
+  .instructions h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #E65100;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <div class="logo">⛪</div>
+  <h1>Église des Assemblées de Dieu du Togo</h1>
+  <div class="sous-titre">Annuaire Numérique — Application officielle</div>
+
+  <div class="carte">
+    <h2>Annuaire Numérique</h2>
+    <p>Contacts, régions ecclésiastiques et institutions de l'église</p>
+
+    <a class="bouton-telecharger" href="https://github.com/Modek2026/eadt-apps/releases/download/v1.0.3/EADT.-.An.2026.apk">
+      ⬇ Télécharger l'application
+    </a>
+    <div class="version">Version 1.0.3 • Android 6.0 ou supérieur</div>
+  </div>
+
+  <div class="carte" style="margin-top:18px;">
+    <h2>Manuel du Pasteur</h2>
+    <p>Cultes, mariages, obsèques — guide pratique structuré</p>
+
+    <span class="bouton-telecharger bouton-desactive">
+      🔒 Bientôt disponible
+    </span>
+    <div class="version">En préparation</div>
+  </div>
+
+  <div class="instructions">
+    <h3>Comment installer</h3>
+    1. Appuie sur le bouton ci-dessus pour télécharger le fichier.<br><br>
+    2. Une fois téléchargé, ouvre le fichier depuis tes notifications ou ton dossier "Téléchargements".<br><br>
+    3. Si Android affiche "Installer des applications inconnues", appuie sur "Paramètres" puis autorise l'installation pour cette source.<br><br>
+    4. Appuie sur "Installer".
+  </div>
+
+  <footer>
+    Pour toute question : +228 90 02 99 63
+  </footer>
+
+</body>
+</html>
